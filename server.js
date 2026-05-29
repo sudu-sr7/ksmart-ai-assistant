@@ -1,30 +1,34 @@
 require('dotenv').config();
 
 const express = require('express');
-
 const cors = require('cors');
-
 const path = require('path');
-
 const fs = require('fs');
 
 const chatRoutes = require('./routes/chat');
 
 const app = express();
 
-app.use(cors());
+// Enable CORS for Netlify frontend
+app.use(
+  cors({
+    origin: '*'
+  })
+);
 
 app.use(express.json());
 
-// Serve frontend
-app.use(express.static(
-  path.join(__dirname, 'public')
-));
+// Serve frontend files
+app.use(
+  express.static(
+    path.join(__dirname, 'public')
+  )
+);
 
 // Chat routes
 app.use(chatRoutes);
 
-// Load all services
+// Services API
 app.get('/services', (req, res) => {
 
   try {
@@ -44,7 +48,10 @@ app.get('/services', (req, res) => {
 
   } catch (error) {
 
-    console.error(error);
+    console.error(
+      'Services Error:',
+      error
+    );
 
     res.status(500).json({
       error:
@@ -53,7 +60,17 @@ app.get('/services', (req, res) => {
   }
 });
 
-// Open frontend
+// Health check route
+app.get('/health', (req, res) => {
+
+  res.json({
+    status: 'OK',
+    service:
+      'KSMART AI Assistant'
+  });
+});
+
+// Frontend route
 app.get('/', (req, res) => {
 
   res.sendFile(

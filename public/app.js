@@ -8,16 +8,30 @@ const messageInput =
     'message'
   );
 
-// Load services
+const responseDiv =
+  document.getElementById(
+    'response'
+  );
+
+// Render Backend URL
+const API_URL =
+  'https://ksmart-ai-assistant.onrender.com';
+
+// Load services into dropdown
 async function loadServices() {
 
   try {
 
     const response =
-      await fetch('/services');
+      await fetch(
+        `${API_URL}/services`
+      );
 
     const services =
       await response.json();
+
+    dropdown.innerHTML =
+      '<option value="">Select a Government Service</option>';
 
     services.forEach(service => {
 
@@ -37,11 +51,17 @@ async function loadServices() {
 
   } catch (error) {
 
-    console.error(error);
+    console.error(
+      'Service Load Error:',
+      error
+    );
+
+    dropdown.innerHTML =
+      '<option>Error Loading Services</option>';
   }
 }
 
-// Autofill textarea
+// Autofill textarea when service selected
 dropdown.addEventListener(
   'change',
   () => {
@@ -57,12 +77,8 @@ dropdown.addEventListener(
   }
 );
 
+// Send question
 async function sendMessage() {
-
-  const responseDiv =
-    document.getElementById(
-      'response'
-    );
 
   const message =
     messageInput.value.trim();
@@ -78,19 +94,21 @@ async function sendMessage() {
   try {
 
     const response =
-      await fetch('/chat', {
+      await fetch(
+        `${API_URL}/chat`,
+        {
+          method: 'POST',
 
-        method: 'POST',
+          headers: {
+            'Content-Type':
+              'application/json'
+          },
 
-        headers: {
-          'Content-Type':
-            'application/json'
-        },
-
-        body: JSON.stringify({
-          message
-        })
-      });
+          body: JSON.stringify({
+            message
+          })
+        }
+      );
 
     const data =
       await response.text();
@@ -106,7 +124,10 @@ async function sendMessage() {
 
   } catch (error) {
 
-    console.error(error);
+    console.error(
+      'Chat Error:',
+      error
+    );
 
     responseDiv.innerHTML = `
       <div class="error">
@@ -116,4 +137,5 @@ async function sendMessage() {
   }
 }
 
+// Load services when page opens
 loadServices();
