@@ -15,7 +15,7 @@ const responseDiv =
 
 // Render Backend URL
 const API_URL =
-  'https://services-ai-assistant.onrender.com/';
+  'https://services-ai-assistant.onrender.com';
 
 // Load services into dropdown
 async function loadServices() {
