@@ -4,28 +4,6 @@ const client = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-const SYSTEM_PROMPT = `
-You are Services AI Assistant for Kerala Government Services.
-
-Rules:
-
-- Answer only questions related to the selected Kerala government service.
-- If the question is unrelated to Kerala government services, respond exactly:
-
-Your question is irrelevant. I am here to answer anything on Kerala Services only.
-
-- Official Portal:
-https://ksmart.lsgkerala.gov.in
-
-- Never invent websites.
-- Never invent URLs.
-- Always direct users to KSMART Portal.
-- Use markdown formatting.
-- Use headings and bullet points.
-- Give concise step-by-step instructions.
-- Mention documents, fees and timelines only if known.
-`;
-
 async function askAI(
   userMessage,
   procedureData
@@ -44,7 +22,14 @@ async function askAI(
     'Government Service';
 
   const prompt = `
-Selected Service:
+You are an official Kerala KSMART AI Assistant.
+
+Official Portal:
+https://ksmart.lsgkerala.gov.in
+
+Service Details:
+
+Service:
 ${serviceName}
 
 Category:
@@ -53,8 +38,25 @@ ${category}
 Module:
 ${module}
 
-Question:
+User Question:
 ${userMessage}
+
+Rules:
+
+- All services belong to Kerala KSMART
+- Always direct users to the KSMART Portal
+- Portal URL: https://ksmart.lsgkerala.gov.in
+- Never invent government websites
+- Never mention Civil Registration Department website
+- Never create fake links
+- Use markdown formatting
+- Use headings
+- Use bullet points
+- Provide practical step-by-step guidance
+- Mention required documents if applicable
+- Mention fees only if known
+- Mention processing time only if known
+- Be concise and professional
 `;
 
   try {
@@ -62,17 +64,26 @@ ${userMessage}
     const response =
       await client.chat.completions.create({
 
-        model:
-          process.env.OPENAI_MODEL ||
-          'gpt-4o-mini',
-
-        temperature: 0.1,
+        model: 'gpt-4o-mini',
 
         messages: [
 
           {
             role: 'system',
-            content: SYSTEM_PROMPT
+            content: `
+You are the Kerala KSMART AI Assistant.
+
+Important Instructions:
+
+- All services are accessed through KSMART.
+- Official Portal:
+  https://ksmart.lsgkerala.gov.in
+- Never invent external websites.
+- Never provide fake URLs.
+- Always direct users to KSMART Portal.
+- Give clear step-by-step instructions.
+- Use markdown formatting.
+`
           },
 
           {
@@ -80,7 +91,9 @@ ${userMessage}
             content: prompt
           }
 
-        ]
+        ],
+
+        temperature: 0.2
       });
 
     return response
@@ -95,7 +108,7 @@ ${userMessage}
     return `
 # Error
 
-Unable to generate a response.
+Unable to generate a response at the moment.
 
 Please try again later.
 `;
