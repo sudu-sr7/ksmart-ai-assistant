@@ -21,7 +21,13 @@ body {
 
   border-radius: 16px;
 
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow:
+    0 4px 12px rgba(
+      0,
+      0,
+      0,
+      0.08
+    );
 }
 
 h1 {
@@ -65,6 +71,15 @@ textarea {
   font-size: 16px;
 
   box-sizing: border-box;
+
+  background: #f8fafc;
+
+  color: #111827;
+}
+
+textarea:read-only {
+
+  cursor: default;
 }
 
 button {
@@ -95,6 +110,13 @@ button:hover {
   background: #1d4ed8;
 }
 
+button:disabled {
+
+  background: #94a3b8;
+
+  cursor: not-allowed;
+}
+
 #response {
 
   margin-top: 30px;
@@ -121,4 +143,23 @@ button:hover {
 .error {
 
   color: red;
+}
+
+.ai-message h1,
+.ai-message h2,
+.ai-message h3 {
+
+  color: #1e293b;
+}
+
+.ai-message a {
+
+  color: #2563eb;
+
+  text-decoration: none;
+}
+
+.ai-message a:hover {
+
+  text-decoration: underline;
 }

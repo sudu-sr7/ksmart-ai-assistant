@@ -62,6 +62,11 @@ async function loadServices() {
 }
 
 // Autofill textarea when service selected
+const askBtn =
+  document.getElementById(
+    'askBtn'
+  );
+
 dropdown.addEventListener(
   'change',
   () => {
@@ -73,6 +78,17 @@ dropdown.addEventListener(
 
       messageInput.value =
         `How to apply for ${selected}?`;
+
+      askBtn.disabled =
+        false;
+
+    } else {
+
+      messageInput.value =
+        '';
+
+      askBtn.disabled =
+        true;
     }
   }
 );
