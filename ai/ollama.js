@@ -24,7 +24,8 @@ async function askAI(
   const prompt = `
 You are an official Kerala KSMART AI Assistant.
 
-Provide clear step-by-step guidance.
+Official Portal:
+https://ksmart.lsgkerala.gov.in
 
 Service Details:
 
@@ -41,11 +42,21 @@ User Question:
 ${userMessage}
 
 Rules:
+
+- All services belong to Kerala KSMART
+- Always direct users to the KSMART Portal
+- Portal URL: https://ksmart.lsgkerala.gov.in
+- Never invent government websites
+- Never mention Civil Registration Department website
+- Never create fake links
 - Use markdown formatting
-- Use bullet points
 - Use headings
-- Be concise
-- Give practical instructions
+- Use bullet points
+- Provide practical step-by-step guidance
+- Mention required documents if applicable
+- Mention fees only if known
+- Mention processing time only if known
+- Be concise and professional
 `;
 
   try {
@@ -56,18 +67,33 @@ Rules:
         model: 'gpt-4o-mini',
 
         messages: [
+
           {
             role: 'system',
-            content:
-              'You are a Kerala government service assistant.'
+            content: `
+You are the Kerala KSMART AI Assistant.
+
+Important Instructions:
+
+- All services are accessed through KSMART.
+- Official Portal:
+  https://ksmart.lsgkerala.gov.in
+- Never invent external websites.
+- Never provide fake URLs.
+- Always direct users to KSMART Portal.
+- Give clear step-by-step instructions.
+- Use markdown formatting.
+`
           },
+
           {
             role: 'user',
             content: prompt
           }
+
         ],
 
-        temperature: 0.3
+        temperature: 0.2
       });
 
     return response
@@ -79,7 +105,13 @@ Rules:
 
     console.error(error);
 
-    return 'AI Error';
+    return `
+# Error
+
+Unable to generate a response at the moment.
+
+Please try again later.
+`;
   }
 }
 
