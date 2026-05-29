@@ -1,0 +1,20 @@
+{
+  "service": "Marriage Registration",
+  "documents": [
+    "Bride Aadhaar",
+    "Groom Aadhaar",
+    "Marriage proof",
+    "Witness ID proofs"
+  ],
+  "fees": "₹100",
+  "timeline": "15 working days",
+  "portal": "https://ksmart.lsgkerala.gov.in",
+  "steps": [
+    "Create account",
+    "Fill marriage registration form",
+    "Upload documents",
+    "Book appointment",
+    "Visit office for verification",
+    "Download certificate"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "service": "Death Certificate Correction",
+  "documents": [
+    "Existing death certificate",
+    "Proof for correction",
+    "Applicant ID proof"
+  ],
+  "fees": "₹50",
+  "timeline": "10 working days",
+  "portal": "https://ksmart.lsgkerala.gov.in",
+  "steps": [
+    "Login to KSMART",
+    "Choose correction service",
+    "Upload supporting documents",
+    "Submit correction request",
+    "Download corrected certificate"
+  ]
+}

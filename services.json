@@ -1,0 +1,897 @@
+[
+  {
+    "Module": "Election Deposit",
+    "Category": "Election Management",
+    "Service": "Nomination deposit for Election"
+  },
+  {
+    "Module": "Chief Minister’s Sthree Suraksha Scheme",
+    "Category": "Chief Minister’s Sthree Suraksha Scheme",
+    "Service": "Application for Chief Minister's Sthree Suraksha Scheme"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Birth Service",
+    "Service": "New Birth Registration"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Birth Service",
+    "Service": "Still Birth Registration"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Birth Service",
+    "Service": "Adoption"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Birth Service",
+    "Service": "Birth Registration-Born out side India"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Birth Service",
+    "Service": "Non - Availability Certificate Birth"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Birth Service",
+    "Service": "Birth Name Inclusion & Corrections"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Birth Service",
+    "Service": "Non - Availability Certificate Birth Born outside India"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Birth Service",
+    "Service": "Birth Certificate Search & Download"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Death Service",
+    "Service": "New Death Registration"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Death Service",
+    "Service": "Non - Availability Certificate Death"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Death Service",
+    "Service": "Death Corrections"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Death Service",
+    "Service": "Death Certificate Search & Download"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Marriage Service",
+    "Service": "Marriage (Common) New Registration"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Marriage Service",
+    "Service": "Corrections in Marriage"
+  },
+  {
+    "Module": "Civil Registration",
+    "Category": "Marriage Service",
+    "Service": "Marriage Certificate Search & Download"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Assessment Services",
+    "Service": "Tax Assessment"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Assessment Services",
+    "Service": "Tax Re-Assessment"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Assessment Services",
+    "Service": "Link My Buildings"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Assessment Services",
+    "Service": "Estimate Your Tax"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Tax Payments",
+    "Service": "Pay Your Tax"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Tax Payments",
+    "Service": "Pay Tax by Search"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Tax Payments",
+    "Service": "EPay Receipts"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Tax Payments",
+    "Service": "Pay Tax Groups"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Building Services",
+    "Service": "Add/Update Building Details"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Building Services",
+    "Service": "Ownership changes"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Building Services",
+    "Service": "Exemption"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Building Services",
+    "Service": "Vacancy Remission"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Building Services",
+    "Service": "Intimation of Demolition"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Certificates",
+    "Service": "Building Certificate"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Certificates",
+    "Service": "Residence Certificate"
+  },
+  {
+    "Module": "Property Tax",
+    "Category": "Certificates",
+    "Service": "Ownership Certificate"
+  },
+  {
+    "Module": "Building Permissions",
+    "Category": "Intimation",
+    "Service": "Earth Work"
+  },
+  {
+    "Module": "Building Permissions",
+    "Category": "Scheme Building",
+    "Service": "Building Permit"
+  },
+  {
+    "Module": "Building Permissions",
+    "Category": "Scheme Building",
+    "Service": "Renewal/Extension of Permit"
+  },
+  {
+    "Module": "Building Permissions",
+    "Category": "Scheme Building",
+    "Service": "Revision in Permit"
+  },
+  {
+    "Module": "Building Permissions",
+    "Category": "Scheme Building",
+    "Service": "Occupancy Completion"
+  },
+  {
+    "Module": "Building Permissions",
+    "Category": "Know Your Land",
+    "Service": "Know Your Land"
+  },
+  {
+    "Module": "Building Permissions",
+    "Category": "K-Map",
+    "Service": "K-Map"
+  },
+  {
+    "Module": "Building Permissions",
+    "Category": "Post Permit Approval",
+    "Service": "Transfer of Permit"
+  },
+  {
+    "Module": "Building Permissions",
+    "Category": "Post Permit Approval",
+    "Service": "Assign New Licensee"
+  },
+  {
+    "Module": "Building Permissions",
+    "Category": "Post Permit Approval",
+    "Service": "Occupancy under One Fifty"
+  },
+  {
+    "Module": "Building Permissions",
+    "Category": "Post Permit Approval",
+    "Service": "Remove Licensee"
+  },
+  {
+    "Module": "Building Permissions",
+    "Category": "Post Permit Approval",
+    "Service": "Renewal/Extension of permit"
+  },
+  {
+    "Module": "Public Grievance & Complaints",
+    "Category": "PGR & Complaints",
+    "Service": "Complaints & Grievances"
+  },
+  {
+    "Module": "Public Grievance & Complaints",
+    "Category": "PGR & Complaints",
+    "Service": "Reply from Respondent"
+  },
+  {
+    "Module": "Public Grievance & Complaints",
+    "Category": "PGR & Complaints",
+    "Service": "Withdraw Complaint"
+  },
+  {
+    "Module": "License Service",
+    "Category": "IFTE & OS License",
+    "Service": "Application for New IFTE & OS License"
+  },
+  {
+    "Module": "License Service",
+    "Category": "IFTE & OS License",
+    "Service": "IFTE & OS License Renewal"
+  },
+  {
+    "Module": "License Service",
+    "Category": "IFTE & OS License",
+    "Service": "Application for IFTE & OS License - Cancellation"
+  },
+  {
+    "Module": "License Service",
+    "Category": "IFTE & OS License",
+    "Service": "Application for IFTE & OS License Corrections"
+  },
+  {
+    "Module": "License Service",
+    "Category": "Private Hospitals & Paramedical Institutions",
+    "Service": "New Registration of Private Hospitals"
+  },
+  {
+    "Module": "License Service",
+    "Category": "Private Hospitals & Paramedical Institutions",
+    "Service": "Renewal of Private Hospitals"
+  },
+  {
+    "Module": "License Service",
+    "Category": "Registration of Tutorial Institutions",
+    "Service": "New Registration"
+  },
+  {
+    "Module": "License Service",
+    "Category": "Registration of Tutorial Institutions",
+    "Service": "Registration Renewal"
+  },
+  {
+    "Module": "License Service",
+    "Category": "Registration of Tutorial Institutions",
+    "Service": "Application for Registration of Tutorial Institutions Cancellation"
+  },
+  {
+    "Module": "License Service",
+    "Category": "Registration of Tutorial Institutions",
+    "Service": "Application for Registration of Tutorial Institutions Corrections"
+  },
+  {
+    "Module": "License Service",
+    "Category": "Dog and Pig License",
+    "Service": "Application for Dog/Pig License"
+  },
+  {
+    "Module": "Building Cess",
+    "Category": "Building Cess",
+    "Service": "New Assessment (Form 1)"
+  },
+  {
+    "Module": "Building Cess",
+    "Category": "Building Cess",
+    "Service": "Pay Cess"
+  },
+  {
+    "Module": "Building Cess",
+    "Category": "Building Cess",
+    "Service": "Corrections & Other Services"
+  },
+  {
+    "Module": "Building Cess",
+    "Category": "Building Cess",
+    "Service": "Ownership Transfer"
+  },
+  {
+    "Module": "Building Cess",
+    "Category": "Building Cess",
+    "Service": "Estimate Cess"
+  },
+  {
+    "Module": "Building Cess",
+    "Category": "Building Cess",
+    "Service": "Help Notes and Documents"
+  },
+  {
+    "Module": "Waste Management",
+    "Category": "Customer",
+    "Service": "Customer Search and Link"
+  },
+  {
+    "Module": "Waste Management",
+    "Category": "Customer",
+    "Service": "E-Payment of User fee"
+  },
+  {
+    "Module": "Others",
+    "Category": "Election Management",
+    "Service": "Nomination deposit for Election"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Works Management",
+    "Service": "Shifting of Electric Post"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Works Management",
+    "Service": "Shifting of water line"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Works Management",
+    "Service": "Application for Contractor Registration"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Works Management",
+    "Service": "Application for Renewal of Contractor Registration"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Works Management",
+    "Service": "Application for the time extension of Public Work(Road ,Pavements& Drainage)"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Works Management",
+    "Service": "Application for the time extension of Public Work(Public buildings)"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Works Management",
+    "Service": "Application for the time extension of Public Work(Ponds & Other Civic Assets)"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Works Management",
+    "Service": "Application for the time extension of Public Work(Minor irrigation)"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Works Management",
+    "Service": "Application for road cutting charge Refund"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Works Management",
+    "Service": "Application for road cutting"
+  },
+  {
+    "Module": "Others",
+    "Category": "Disaster management",
+    "Service": "Shelter and Rescue Management"
+  },
+  {
+    "Module": "Others",
+    "Category": "Disaster management",
+    "Service": "Disaster Relief Assistance"
+  },
+  {
+    "Module": "Others",
+    "Category": "Finance Management",
+    "Service": "Refund of Security deposit"
+  },
+  {
+    "Module": "Others",
+    "Category": "Finance Management",
+    "Service": "Refund of Performance guarantee"
+  },
+  {
+    "Module": "Others",
+    "Category": "Finance Management",
+    "Service": "Refund of Reciept"
+  },
+  {
+    "Module": "Others",
+    "Category": "Finance Management",
+    "Service": "Refund of Auction Deposit"
+  },
+  {
+    "Module": "Others",
+    "Category": "Finance Management",
+    "Service": "Other Institutions expences"
+  },
+  {
+    "Module": "Others",
+    "Category": "Finance Management",
+    "Service": "Certificate showing Non Liability"
+  },
+  {
+    "Module": "Others",
+    "Category": "Finance Management",
+    "Service": "Reciepts / Utilisation Certificate"
+  },
+  {
+    "Module": "Others",
+    "Category": "Finance Management",
+    "Service": "Adjustment of Deposits"
+  },
+  {
+    "Module": "Others",
+    "Category": "Finance Management",
+    "Service": "Refund of Unutilised Grants"
+  },
+  {
+    "Module": "Others",
+    "Category": "Finance Management",
+    "Service": "CSR fund /Donations/Contributions"
+  },
+  {
+    "Module": "Others",
+    "Category": "Finance Management",
+    "Service": "Refund of Retention"
+  },
+  {
+    "Module": "Others",
+    "Category": "Right to Information",
+    "Service": "Application under Right to Information Act"
+  },
+  {
+    "Module": "Others",
+    "Category": "Right to Information",
+    "Service": "Application of Appeal under Right to Information Act."
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Health & Sanitation",
+    "Service": "Application for burial/Cremation of bodies"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Health & Sanitation",
+    "Service": "Permission for burial of Unclaimed body of Animals / Related activities"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Health & Sanitation",
+    "Service": "Burial grounds and Facilities"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Health & Sanitation",
+    "Service": "Private Burial grounds and Facilities"
+  },
+  {
+    "Module": "Others",
+    "Category": "Asset Management",
+    "Service": "Relinquishment of Land for Road"
+  },
+  {
+    "Module": "Others",
+    "Category": "Rent ,Lease and Other Receipts",
+    "Service": "Permit for Change or alteration to the rental building"
+  },
+  {
+    "Module": "Others",
+    "Category": "Rent ,Lease and Other Receipts",
+    "Service": "Rent Written off"
+  },
+  {
+    "Module": "Others",
+    "Category": "Rent ,Lease and Other Receipts",
+    "Service": "Transfer of buildings to the other members of the family/partner when the occupier deceased"
+  },
+  {
+    "Module": "Others",
+    "Category": "Rent ,Lease and Other Receipts",
+    "Service": "Rental of buildings to other Govt. Offices"
+  },
+  {
+    "Module": "Others",
+    "Category": "Rent ,Lease and Other Receipts",
+    "Service": "Town Hall/Ground/Conference hall /guest house booking"
+  },
+  {
+    "Module": "Others",
+    "Category": "Rent ,Lease and Other Receipts",
+    "Service": "Cancellation of Booking/ Refund of Charges"
+  },
+  {
+    "Module": "Others",
+    "Category": "Rent ,Lease and Other Receipts",
+    "Service": "Public Place Resort License"
+  },
+  {
+    "Module": "Others",
+    "Category": "Rent ,Lease and Other Receipts",
+    "Service": "The Kerala Cinemas (Regulation) Rules License"
+  },
+  {
+    "Module": "Others",
+    "Category": "Rent ,Lease and Other Receipts",
+    "Service": "Parking Private property"
+  },
+  {
+    "Module": "Others",
+    "Category": "Rent ,Lease and Other Receipts",
+    "Service": "Rent Agreement Renewal"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Application for BPL certificate"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Social Security Pension -Correction"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Social Security Pension Transfer"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Social Security Pension Cancellation"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Social Security Pension Issuing Certificate"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Poor Widow's Daughter's marriage assistance"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Intercaste Marriage Assistance"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Unemployment Allowance New Application"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Nilathezhuthu Asan GrantNew Application"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Aadhar authentication failed certificate"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Social Security Pension - Life Certificate"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Social security pension -  Non remarriage certificate"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Finance Assistance for Intercaste Marriage"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Housing Schemes (IAY,PMAY, LIFE,VHP,PMJANMAN)"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "NREGS Related Activities"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "LGBTQ+"
+  },
+  {
+    "Module": "Others",
+    "Category": "Citizen Welfare",
+    "Service": "Financial Assistance to SC Marriage"
+  },
+  {
+    "Module": "Others",
+    "Category": "Building Permissions",
+    "Service": "Building fitness / Building Fitness Certificate"
+  },
+  {
+    "Module": "Others",
+    "Category": "Building Permissions",
+    "Service": "Intimation Temporary Huts ,sheds and SFR buildings upto 100 m2"
+  },
+  {
+    "Module": "Others",
+    "Category": "Building Permissions",
+    "Service": "Movement permit for ordinary earth"
+  },
+  {
+    "Module": "Others",
+    "Category": "Building Permissions",
+    "Service": "Regularisation of Unauthorised Construction"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "License for Operation of Places for Animal Keeping & Livestock Farms (Cattles, Horse, Pigs, Camel, Goat, Chickens etc)"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "License for Operation of Places for Animal Keeping & Livestock Farms (Cattles, Horse, Pigs, Camel, Goat, Chickens etc) - Corrections"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Livestock Business Permits & Licences - Permit Or License for Operation of Places for Animal Keeping & Livestock Farms (Cattles, Horse, Pigs, Camel, Goat, Chickens etc) Cancellation."
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Permit for Establishing Slaughterhouses"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "License for Operation of Slaughterhouses"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Butcher's, Fishmonger's and Poulterer's License"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "License for Pet Animal Breeding & Selling Shops(Dog, Cat & Other Animals)"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Pet Animals License - Cancellation"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Application for Industry, Factory, Workshop Establishment/Machinery Installation Permit"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Application for Industry, Factory, Workshop Establishment/Machinery Installation Permit - Corrections"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Application for Industry, Factory, Workshop Establishment/Machinery Installation Permit - Modifications"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Application for Industry, Factory, Workshop Establishment/Machinery Installation Permit - Cancellation"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Application for Registration of private hospitals & paramedical institutions Corrections."
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Registration of private hospitals & paramedical institutions Cancellation."
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Application for Registration of tutorial institutions cancellation"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Sanitation Certificate"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Lodging Houses Registration and allied activities"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Chicken / Meat / Fish Stall"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "FTE & OS License related Activities"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Permit for Establishing Slaughterhouses"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "License for Operation of Slaughterhouses"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "New License for Private market"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Renewal of Private market license"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Private market license Correction"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Private market license Cancellation"
+  },
+  {
+    "Module": "Others",
+    "Category": "Business Facilitation",
+    "Service": "Application for New Registration of private hospitals & paramedical institutions"
+  },
+  {
+    "Module": "Others",
+    "Category": "Property Tax",
+    "Service": "Tax Appeal"
+  },
+  {
+    "Module": "Others",
+    "Category": "Human Resources Management",
+    "Service": "Service Pension - Life Certificate"
+  },
+  {
+    "Module": "Others",
+    "Category": "Human Resources Management",
+    "Service": "Service Pension  Contigent employees - Life Certificate"
+  },
+  {
+    "Module": "Others",
+    "Category": "Town Planning/ Regulations",
+    "Service": "Fixing of slab/Grill at public place for personal use"
+  },
+  {
+    "Module": "Others",
+    "Category": "Town Planning/ Regulations",
+    "Service": "Hoardings and Advertisement Boards At Private Property"
+  },
+  {
+    "Module": "Others",
+    "Category": "Town Planning/ Regulations",
+    "Service": "Hoardings and Advertisement Boards At Public Place"
+  },
+  {
+    "Module": "Others",
+    "Category": "Development Planning and Project Management",
+    "Service": "Application For Various Beneficiary Certificates"
+  },
+  {
+    "Module": "Others",
+    "Category": "Development Planning and Project Management",
+    "Service": "Stadiums & Play Grounds"
+  },
+  {
+    "Module": "Others",
+    "Category": "General Administration",
+    "Service": "Scholarships"
+  },
+  {
+    "Module": "Others",
+    "Category": "General Administration",
+    "Service": "Management of SHGs and Other Organisations"
+  },
+  {
+    "Module": "Others",
+    "Category": "General Administration",
+    "Service": "Internship"
+  },
+  {
+    "Module": "Others",
+    "Category": "General Administration",
+    "Service": "Grama Kendram - Activities"
+  },
+  {
+    "Module": "Others",
+    "Category": "General Administration",
+    "Service": "SPCA Related Activities"
+  },
+  {
+    "Module": "Others",
+    "Category": "General Administration",
+    "Service": "NOC for Bank Loan"
+  },
+  {
+    "Module": "Others",
+    "Category": "General Administration",
+    "Service": "General Complaints, Grievance"
+  },
+  {
+    "Module": "Others",
+    "Category": "General Administration",
+    "Service": "Application for Report / Certificate / Recommendation of Localbody regarding entreprenurship activities running in the jurisdiction of Localbody by persons or group"
+  },
+  {
+    "Module": "Others",
+    "Category": "General Administration",
+    "Service": "Institution login Access Control Service"
+  },
+  {
+    "Module": "Others",
+    "Category": "Civic Amenities",
+    "Service": "Management of Burial Grounds"
+  },
+  {
+    "Module": "Others",
+    "Category": "Civic Amenities",
+    "Service": "Drinking Water"
+  },
+  {
+    "Module": "Others",
+    "Category": "Civic Amenities",
+    "Service": "Management of Vehicle Parking Facilities"
+  },
+  {
+    "Module": "Others",
+    "Category": "Civic Amenities",
+    "Service": "Management of Public Places"
+  },
+  {
+    "Module": "Others",
+    "Category": "Civic Amenities",
+    "Service": "Water Supply, Public transportation, Public Electricity, Sewerage"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Safety",
+    "Service": "Cattle Tresspass Related Services"
+  },
+  {
+    "Module": "Others",
+    "Category": "Public Safety",
+    "Service": "Cutting and pruning of Dangerous trees"
+  }
+]

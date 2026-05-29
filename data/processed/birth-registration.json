@@ -1,0 +1,20 @@
+{
+  "service": "New Birth Registration",
+  "description": "Registration of newly born child",
+  "documents": [
+    "Hospital discharge summary",
+    "Parents Aadhaar card",
+    "Address proof"
+  ],
+  "fees": "Free within 21 days",
+  "timeline": "7 working days",
+  "portal": "https://ksmart.lsgkerala.gov.in",
+  "steps": [
+    "Visit KSMART portal",
+    "Login or register",
+    "Choose Birth Registration",
+    "Upload documents",
+    "Submit application",
+    "Track application status"
+  ]
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>KSMART AI Assistant</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>KSMART AI Assistant</h1>
+
+    <select id="serviceDropdown">
+
+      <option value="">
+        Select a Government Service
+      </option>
+
+    </select>
+
+    <textarea
+      id="message"
+      placeholder="Ask about Kerala government services..."
+    ></textarea>
+
+    <button onclick="sendMessage()">
+      Ask
+    </button>
+
+    <div id="response"></div>
+
+  </div>
+
+  <!-- Markdown renderer -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
